@@ -8,8 +8,15 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+dist/
 dist-ssr
+coverage/
+.vite/
+.vercel/
+.cache/
+.eslintcache
+.turbo/
+*.tsbuildinfo
 *.local
 
 # Editor directories and files
@@ -17,6 +24,7 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
